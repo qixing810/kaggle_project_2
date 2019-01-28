@@ -1,12 +1,12 @@
 # The name of the project shown in the navigation bar (it links to the
 # home page).
-name: "House Prices Advanced Regression Techniques project"
+name: "Divvy data exploration project"
 
 # Link to the source repository (e.g., on Github, Gitlab).
-repo: "https://github.com/qixing810/House-Prices-Advanced-Regression-Techniques"
+repo: "http://github.com/stephenslab/ipynb-website"
 
 # Footer added to the bottom of some webpages.
-footer: "&copy; 2019 Qixing Li"
+footer: "&copy; 2017 Peter Carbonetto &amp; Gao Wang"
 
 # When set to True, populate the footer of each notebook with the git
 # commit id (SHA1) and commit modification date.
@@ -14,7 +14,7 @@ add_commit_info: True
 
 # These subdirectories contain Jupyter notebooks that will be rendered
 # into webpages.
-include_dir: ["analysis", "", "", "", ""]
+include_dir: ["analysis", "setup", "license", "notes", "protected"]
 
 # Do not add links in the navigation bar for the Jupyter notebooks in
 # these subdirectories.
@@ -67,4 +67,4 @@ notebook_toc: False
 # remove_whiteline: False
 
 # Load a list of password protected folders / pages and their passwords
-# password_file: .passwd
+password_file: .passwd
